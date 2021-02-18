@@ -1,0 +1,101 @@
+//create
+tar -cf mytar.tar asd.txt ghj.txt
+
+
+//extract
+tar -xf mytar.tar
+
+//create and as well as print which file is getting tarz
+tar -cvf dir1/my.tar asd.txt ghj.txt
+
+//extract and as well as print which file is getting tarz
+tar -xvf dir1/my.tar asd.txt ghj.txt
+
+
+//to compress 
+gzip my.tar
+
+//to unzip
+gunzip my.tar.gz
+
+
+//to compress a file
+gzip a.txt
+
+//to unzip
+gunzip 
+
+
+//tar plus zip
+tar -czvf dir1/my.tar ad.txt ghj.txt
+
+//command file 
+file dir1/my.tar.gz
+
+//chown-to change owner 
+sudo chown himanshu dir1/my.txt
+
+
+//chgrp -to change group
+sudo hgrp himanshu dir1/my.txt
+
+//chmod 
+chmod ugo
+
+
+
+//shell script
+
+vim script.sh
+pwd
+ls ~
+
+//':wq'(write quit)
+
+
+//to execute a file 
+./script.sh
+
+
+
+eccho $PATH
+
+$PATH add path
+
+
+//to change permission
+chmod u+x script.sh
+
+r w x
+2 1 0
+4 2 1
+
+
+chmod 76 sript.sh
+
+
+//date command
+//cal- calender
+
+
+
+echo "hi" > a.txt
+
+cat a.txt
+
+echo 'hello;' > a.txt
+
+echo 'hi' >> a.txt
+
+//grep -command (gnu regular expresion processor)
+//print line having that pattern
+grep him z.txt
+
+
+ls -l /etc/ | grep apache
+
+
+ls -l /etc/ > dir1/a.txt
+
+s z.txt y.txt d.txt 2>&1|grep "y.t"
+

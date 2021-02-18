@@ -1,0 +1,91 @@
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+
+}
+
+.box-two {
+    background: #4166a1;
+    width: 200px;
+    height: 200px;
+
+}
+
+.box-one-two {
+    height: 300px;
+    width: 500px;
+    background: url(../img/stars.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.box-one-three {
+    background: url(../img/leaf.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.side-menu {
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.side-menu li {
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: dotted 1px #ddd;
+
+}
+
+.side-menu li:last-child {
+    border: none;
+}
+
+
+
+.side-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.side-menu li a:hover {
+    color: coral;
+}
+
+.side-menu li:first-child {
+    font-size: large;
+}
+
+.first::first-line {
+    color: red;
+}
+
+.comb li {
+    display: inline;
+
+}
+
+li>a {
+    padding-right: 20px;
+}
+
+.pseudofirst>p+div {
+    color: red;
+}
+
+a[target=_blank] {
+    background-color: yellow;
+
+}
+
+[class|=top] {
+    background: yellow;
+}
+input[name=home]{
+    color: blue;
+}

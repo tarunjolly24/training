@@ -1,0 +1,4 @@
+scp file1.txt test@ttnpl:/home/test
+
+
+sudo useradd -m test -d /home/test -s /bin/bash

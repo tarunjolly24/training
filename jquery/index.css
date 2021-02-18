@@ -1,0 +1,14 @@
+.load{
+    color: red;
+    
+}
+
+#parent{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+}
+/* 
+.dropdown{
+    display: none;
+} */

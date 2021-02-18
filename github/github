@@ -1,0 +1,183 @@
+ 450  mkdir project
+  451  mkrdir mysoftware
+  452  cdcear
+  453  clear
+  454  cd project/
+  455  mkdir mysoftware
+  456  cd mysoftware/
+  457  touch path_for_terminal.txt
+  458  echo "/Desktop/project/mysoftware" > path_for_terminal.txt 
+  459  cat path_for_terminal.txt 
+  460  ls-l
+  461  ls
+  462  ls -l
+  463  ls -a
+  464  .git
+  465  git stats
+  466  git status
+  467  git add path_for_terminal.txt 
+  468  git status
+  469  touch file.txt
+  470  touch scriptpy
+  471  touch website.html
+  472  touch style.css
+  473  git status
+  474  git add .
+  475  git status
+  476  git add .
+  477  git status
+  478  git rm file.txt
+  479  git rm -f  file.txt
+  480  git status
+  481  touch file.txt
+  482  git status
+  483  git add .
+  484  git status
+  485  git rm --cached file.txt 
+  486  git status
+  487  git add .
+  488  git status
+  489  git commit
+  490  git config --global user.email tarun.jolly@tothenew.com
+  491  git config --global user.name tarun jolly
+  492  git commit --help
+  493  git commit -sm "Initial commit"
+  494  git log
+  495  echo "added text" > file.txt 
+  496  rm website.html 
+  497  git status
+  498  git add .
+  499  git commit -sm "added and modified"
+  500  touch new_website.html
+  501  git add .
+  502  git commit -sm "added new website"
+  503  touch web_functionality.js
+  504  git add .
+  505  git commit -sm "added new website functionality"
+  506  git log
+  507  git checkout 57f4221bab77e9e0fa94d7d8bcde84c12b722503
+  508  git checkout master
+  509  git log
+  510  git revert  5f1cecb5055f553dd778312175c19de80f682ddc
+  511  git og
+  512  git log
+  513  git checkout  5f1cecb5055f553dd778312175c19de80f682ddc
+  514  git checkout master
+  515  git log
+  516  git checkout ba89bfde89b1826e7781f1b62e44058a2622be7c 
+  517  git log
+  518  git revert ba89bfde89b1826e7781f1b62e44058a2622be7c 
+  519  git log
+  520  git reset --hard 5f1cecb5055f553dd778312175c19de80f682ddc
+  521  git log
+  522  git checkout master
+  523  git log
+  524  git reset --hard edbf50c8bd7e89b886f219396160afc44163e0f9
+  525  git log --oneline
+  526  touch file1.txt
+  527  echo "hard test" > file1.txt
+  528  s -l
+  529  ls -l
+  530  git add .
+  531  git commit -sm "testing mix"
+  532  git reset --soft
+  533  git status
+  534  git reset
+  535  git status
+  536  git reset --soft master
+  537  git status
+  538  git reset master
+  539  git status
+  540  git log --oneline
+  541  git reset 9fc67b5
+  542  git status
+  543  git reset --mixed  9fc67b5
+  544* 
+  545  git reset --mixed  edbf50c
+  546  git status
+  547  git log --oneline
+  548  cat file1.txt 
+  549  git commit -sm "testing reset'
+  550  git commit -sm "testing reset"
+  551  git add .
+  552  git commit -sm "testing reset"
+  553  git log --oneline
+  554  git reset --soft edbf50c
+  555  git log --oneline
+  556  git status
+  557  git commit -sm "abc"
+  558  cat file1.txt 
+  559  git log --oneline
+  560  git reset --soft 4ab116f
+  561  git status
+  562  git commit -sm "new commit'
+  563  git commit -sm "new commit"
+  564  git log --oneline
+  565  history
+  566  touch .gitignore
+  567  touch log.txt
+  568  echo "log.txt" > .gitignore
+  569  ls -l
+  570  chmod 060 file.txt 
+  571  ls -l
+  572  cd ..
+  573  mkdir mynewsoftware
+  574  cd mynewsoftware/
+  575  git init
+  576  mkdir src
+  577  mkdir lib
+  578  cd src/
+  579  touch file.txt
+  580  touch script.js
+  581  cd ..
+  582  cd ib
+  583  cd lib
+  584  touch lib.py
+  585  touch file2.txt
+  586  cd ..
+  587  git status
+  588  git add .
+  589  git commit -sm "initial commit'
+  590  git commit -sm "initial commit"
+  591  git checkout -b dev
+  592  git checkout master
+  593  git branch bugs
+  594  git branch -a 
+  595  git checkout bugs
+  596  git branch -a 
+  597  git checkout master
+  598  git branch -d bugs
+  599  git checkout dev
+  600  cd lib
+  601  echo "some new text" > file1.txt
+  602  cat file1.txt
+  603  cd ..
+  604  git add .
+  605  git commit -sm "dummy commit"
+  606  git checkout master
+  607  git checkout dev
+  608  echo "some new text" > file2.txt
+  609* 
+  610  git add .
+  611  git commit -sm "dummy commit1"
+  612  git status
+  613  git add .
+  614  git commit -sm "dummy commit 2"
+  615  git log 
+  616  git checkout dev
+  617  git checkout master
+  618  touch version
+  619  rm version
+  620  cd src/
+  621  touch version.txt
+  622  echo "1.0" > version.txt 
+  623  cd ..
+  624  git checkout dev
+  625  git status
+  626  git add .
+  627  git commit -sm "Release 1.0"
+  628  git checkout master
+  629  git status
+  630  git merge dev 
+  631  git log
+

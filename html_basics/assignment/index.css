@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    padding:0px;
+}
+header{
+    border: 1px solid black;
+    
+    padding:10px 10px 40px 10px;
+    
+}
+.clr {
+    clear: both;
+  }
+#logo{
+    
+    float: left;
+}
+#login{
+    float: right;
+}
+
+.head-section{
+    border: 1px solid black;
+    
+    padding: 5px;
+}
+
+
+ul{
+    list-style: none;
+    padding: 20px;
+
+}
+
+aside{
+    border: 1px solid black;
+    padding: 20px;
+    width: 10%;
+    text-align: center;
+    
+}
+section{
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.innerdiv{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: gray;
+}
+
+.container{
+    display:flex;
+
+}
+
+#bigdiv{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.innerdiv span{
+    line-height: 150px;
+    
+}
+
+.two{
+    margin: 10px;
+    padding: 10px;
+}
+.insidetwo{
+    
+    margin-right:15px;
+    padding: 10px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.innertwo{
+    text-align: justify;
+}
+
+.three{
+    margin: 10px;
+    padding: 10px;
+}
+.insidethree{
+    display: flex;
+    justify-content: space-around;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+.four{
+    margin: 10px;
+    padding: 10px;
+}
+

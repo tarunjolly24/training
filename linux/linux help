@@ -1,0 +1,21 @@
+ssh user_name@ip
+
+
+
+ip==hostname
+
+
+<userame>@<ip>
+
+source file
+destination
+
+cp  souce file destination file
+scp username2@ip:<source file> destination
+ 
+scp source file username_@ip destination
+
+
+
+
+
